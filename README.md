@@ -2,9 +2,11 @@
 
 GFocalV2 (GFLV2) is a next generation of GFocalV1 (GFLV1), which utilizes the statistics of learned bounding box distributions to guide the reliable localization quality estimation.
 
-Again, GFLV2 improves over GFLV1 about ~1 AP without (almost) extra computing cost!
+Again, GFLV2 improves over GFLV1 about ~1 AP without (almost) extra computing cost! Analysis of GFocalV2 in ZhiHu will come soon. You can first see comments about GFocalV1 in [大白话 Generalized Focal Loss(知乎)](https://zhuanlan.zhihu.com/p/147691786)
 
-Analysis of GFocalV2 in ZhiHu will come soon. You can first see comments about GFocalV1 in [大白话 Generalized Focal Loss(知乎)](https://zhuanlan.zhihu.com/p/147691786)
+---
+
+More news:
 
 [2020.11] GFocalV2 is here!
 
@@ -19,6 +21,9 @@ Analysis of GFocalV2 in ZhiHu will come soon. You can first see comments about G
 
 ## Introduction
 
+```
+Localization Quality Estimation (LQE) is crucial and popular in the recent advancement of dense object detectors since it can provide accurate ranking scores that benefit the Non-Maximum Suppression processing and improve detection performance.  As a common practice, most existing methods predict LQE scores through vanilla convolutional features shared with object classification or bounding box regression. In this paper, we explore a completely novel and different perspective to perform LQE -- based on the learned distributions of the four parameters of the bounding box. The bounding box distributions are inspired and introduced as ``General Distribution'' in GFLV1, which describes the uncertainty of the predicted bounding boxes well. Such a property makes the distribution statistics of a bounding box highly correlated to its real localization quality. Specifically, a bounding box distribution with a sharp peak usually corresponds to high localization quality, and vice versa. By leveraging the close correlation between distribution statistics and the real localization quality, we develop a considerably lightweight Distribution-Guided Quality Predictor (DGQP) for reliable LQE based on GFLV1, thus producing GFLV2. To our best knowledge, it is the first attempt in object detection to use a highly relevant, statistical representation to facilitate LQE. Extensive experiments demonstrate the effectiveness of our method. Notably, GFLV2 (ResNet-101) achieves 46.2 AP at 14.6 FPS, surpassing the previous state-of-the-art ATSS baseline (43.6 AP at 14.6 FPS) by absolute 2.6 AP on COCO test-dev, without sacrificing the efficiency both in training and inference.
+```
 
 <img src="https://github.com/implus/GFocalV2/blob/master/gfocal.png" width="1000" height="300" align="middle"/>
 
@@ -104,3 +109,5 @@ If you find GFocal useful in your research, please consider citing:
     year={2020}
 }
 ```
+
+
