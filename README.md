@@ -2,7 +2,7 @@
 
 GFocalV2 (GFLV2) is a next generation of GFocalV1 (GFLV1), which utilizes the statistics of learned bounding box distributions to guide the reliable localization quality estimation.
 
-Again, GFLV2 improves over GFLV1 about ~1 AP without (almost) extra computing cost! Analysis of GFocalV2 in ZhiHu will come soon. You can first see comments about GFocalV1 in [大白话 Generalized Focal Loss(知乎)](https://zhuanlan.zhihu.com/p/147691786)
+Again, GFLV2 improves over GFLV1 about ~1 AP without (almost) extra computing cost! Analysis of GFocalV2 in ZhiHu: [大白话 Generalized Focal Loss V2](https://zhuanlan.zhihu.com/p/313684358). You can see more comments about GFocalV1 in [大白话 Generalized Focal Loss(知乎)](https://zhuanlan.zhihu.com/p/147691786)
 
 ---
 
@@ -66,7 +66,7 @@ For your convenience, we provide the following trained models (GFocalV2). All mo
 
 Model | Multi-scale training | AP (minival) | AP (test-dev) | FPS | Link
 --- |:---:|:---:|:---:|:---:|:---:
-GFocal_R_50_FPN_1x              | Yes | 41.0 | 41.1 | 19.4 | [Google](https://drive.google.com/file/d/1wSE9-c7tcQwIDPC6Vm_yfOokdPfmYmy7/view?usp=sharing)
+GFocal_R_50_FPN_1x              | No  | 41.0 | 41.1 | 19.4 | [Google](https://drive.google.com/file/d/1wSE9-c7tcQwIDPC6Vm_yfOokdPfmYmy7/view?usp=sharing)
 GFocal_R_50_FPN_2x              | Yes | 43.9 | 44.4 | 19.4 | [Google](https://drive.google.com/file/d/17-1cKRdR5J3SfZ9NBCwe6QE554uTS30F/view?usp=sharing)
 GFocal_R_101_FPN_2x             | Yes | 45.8 | 46.0 | 14.6 | [Google](https://drive.google.com/file/d/1qomgA7mzKW0bwybtG4Avqahv67FUxmNx/view?usp=sharing)
 GFocal_R_101_dcnv2_FPN_2x       | Yes | 48.0 | 48.2 | 12.7 | [Google](https://drive.google.com/file/d/1xsBjxmqsJoYZYPMr0k06X5K9nnPrexcx/view?usp=sharing)
