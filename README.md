@@ -91,20 +91,20 @@ Thanks MMDetection team for the wonderful open source project!
 If you find GFocal useful in your research, please consider citing:
 
 ```
-@inproceedings{li2020generalized,
-    title={Generalized Focal Loss: Learning Qualified and Distributed Bounding Boxes for Dense Object Detection},
-    author={Li, Xiang and Wang, Wenhai and Wu, Lijun and Chen, Shuo and Hu, Xiaolin and Li, Jun and Tang, Jinhui and Yang, Jian},
-    booktitle={NeurIPS},
-    year={2020}
+@article{li2020gfl,
+  title={Generalized focal loss: Learning qualified and distributed bounding boxes for dense object detection},
+  author={Li, Xiang and Wang, Wenhai and Wu, Lijun and Chen, Shuo and Hu, Xiaolin and Li, Jun and Tang, Jinhui and Yang, Jian},
+  journal={arXiv preprint arXiv:2006.04388},
+  year={2020}
 }
 ```
 
 ```
-@article{li2020generalizedv2,
-    title={Generalized Focal Loss V2: Learning Reliable Localization Quality Estimation for Dense Object Detection},
-    author={Li, Xiang and Wang, Wenhai and Hu, Xiaolin and Li, Jun and Tang, Jinhui and Yang, Jian},
-    journal={arXiv preprint},
-    year={2020}
+@article{li2020gflv2,
+  title={Generalized Focal Loss V2: Learning Reliable Localization Quality Estimation for Dense Object Detection},
+  author={Li, Xiang and Wang, Wenhai and Hu, Xiaolin and Li, Jun and Tang, Jinhui and Yang, Jian},
+  journal={arXiv preprint arXiv:2011.12885},
+  year={2020}
 }
 ```
 
