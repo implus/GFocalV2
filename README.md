@@ -8,7 +8,7 @@ Again, GFLV2 improves over GFLV1 about ~1 AP without (almost) extra computing co
 
 More news:
 
-[2020.11] GFocalV2 is here!
+[2021.3] GFocalV2 has been accepted by CVPR2021 (pre-review score: 113).
 
 [2020.11] GFocalV1 has been adopted in [NanoDet](https://github.com/RangiLyu/nanodet), a super efficient object detector on mobile devices, achieving same performance but 2x faster than YoLoV4-Tiny! More details are in [YOLO之外的另一选择，手机端97FPS的Anchor-Free目标检测模型NanoDet现已开源~](https://zhuanlan.zhihu.com/p/306530300).
 
