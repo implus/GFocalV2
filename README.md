@@ -30,13 +30,9 @@ For details see [GFocalV2](https://arxiv.org/pdf/2011.12885.pdf). The speed-accu
 <img src="https://github.com/implus/GFocalV2/blob/master/sota_time_acc.jpg" width="541" height="365" align="middle"/>
 
 
-## Installation
-
-Please refer to [INSTALL.md](docs/INSTALL.md) for installation and dataset preparation.
-
 ## Get Started
 
-Please see [GETTING_STARTED.md](docs/GETTING_STARTED.md) for the basic usage of MMDetection.
+Please see [GETTING_STARTED.md](https://github.com/open-mmlab/mmdetection/blob/v2.6.0/docs/get_started.md) for the basic usage of MMDetection.
 
 ## Train
 
